@@ -43,7 +43,8 @@ else
 fi
 
 # Node configuration
-read -p "Enter the Name for the node: " MONIKER
+# Set moniker from Terraform variable
+MONIKER="${moniker}"  # passed from Terraform
 KEYS="mykey"
 CHAINID="qubetics_9029-1"
 KEYRING="os"

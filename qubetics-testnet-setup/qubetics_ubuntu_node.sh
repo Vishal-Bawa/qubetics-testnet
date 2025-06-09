@@ -43,8 +43,8 @@ else
 fi
 
 # Node configuration
-# Set moniker from Terraform variable
-MONIKER="${moniker}"  # passed from Terraform
+
+MONIKER="qubetics-node"  
 KEYS="mykey"
 CHAINID="qubetics_9029-1"
 KEYRING="os"

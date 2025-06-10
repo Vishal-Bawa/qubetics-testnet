@@ -43,8 +43,7 @@ else
 fi
 
 # Node configuration
-
-MONIKER="qubetics-node"  
+read -p "Enter the Name for the node: " MONIKER
 KEYS="mykey"
 CHAINID="qubetics_9029-1"
 KEYRING="os"
